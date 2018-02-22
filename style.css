@@ -1,0 +1,81 @@
+body {
+	
+	background-position: top 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F8F8FF;
+	background-size: 3200px 1000px;
+	background-repeat: space ;
+	background-image: url("pictures/pexels-photo-356977.jpeg");
+	}
+	
+h1 {
+	color: #000;
+	margin: 50px;
+	
+	text-align: center;
+	font-size: 22.5px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	}
+	
+h2 {
+	color: #fff;
+	font-size: 50px;
+
+}
+
+.alert {
+	color: red;
+	font-size: 18px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+h4{
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+ 
+}
+ 
+
+.topnav {
+    background-color: #004225;
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #FFF;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #00311b;
+    color: white;
+}
+
+form {
+	border: 5px solid #00311b;
+
+	width: 275px;
+	text-align: center;
+	background-color: #004225;
+	font-size: 70px;
+}

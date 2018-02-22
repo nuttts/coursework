@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<link href="style.css" type="text/css" rel="stylesheet">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<body>
+	<div class="container-fluid">
+		<div class="topnav" id="myTopnav">
+			<a href="Index.html">Login</a>
+			<a class="active">Register</a>
+		</div>
+	</div>
+	<h1>Sign up for Royal Golf Societies today and start your society</br></h1>
+	<h4 align="center">Make sure to specify whether you are a club member or an administrator,</h4>
+	<div>
+	<h4 class="alert" align="center">this cannot be changed later </h4> </div>
+	<center>
+	<form action="/register.php" method="post">
+		<h2>Register...</h2>
+			<input type="text" placeholder="Email" name="email">
+			<input type="text" placeholder="Username" name="username">
+			<select name="devices">
+				<option value="club_administrator">Club Administrator</option>
+				<option value="club_member">Club Member</option>
+			</select>		
+			<input type="password" placeholder="Password" name="pword"></br>
+			<input type="password" placeholder="Confirm Password"></br>
+			<input type="submit">
+	
+	</form>
+	</center>
+	
+</body>
+</html>
